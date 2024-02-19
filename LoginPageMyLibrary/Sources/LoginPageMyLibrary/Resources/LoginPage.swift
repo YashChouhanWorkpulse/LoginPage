@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 
-
 class LoginPage: UIView {
     
     @IBOutlet var contentVIew: UIView!

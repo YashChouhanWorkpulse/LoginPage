@@ -19,8 +19,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "LoginPageMyLibrary",resources: [
-                .copy("Resources/LoginPage.swift"),
-                .copy("Resources/LoginPage.xib"),
+               // .copy("Resources/LoginPage.swift"),
+                //.copy("Resources/LoginPage.xib"),
             ]),
         .testTarget(
             name: "LoginPageMyLibraryTests",
