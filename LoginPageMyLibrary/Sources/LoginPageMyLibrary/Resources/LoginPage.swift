@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class LoginPage: UIView {
+public class LoginPage: UIView {
     
     @IBOutlet var contentVIew: UIView!
     @IBOutlet weak var emailBorderView: UIView!
@@ -44,3 +44,4 @@ class LoginPage: UIView {
     }
     
 }
+
